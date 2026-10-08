@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orellana 360</string>
+    <string name="splash_subtitle">Amazonía Sostenible</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_tourism">Atractivos</string>
+    <string name="nav_biodiversity">Biodiversidad</string>
+    <string name="nav_communities">Comunidades</string>
+    <string name="home_title">ORELLANA 360°</string>
+    <string name="home_subtitle">Amazonía Sostenible</string>
+    <string name="home_search">Buscar atractivo…</string>
+    <string name="card_tourism">Atractivos Turísticos</string>
+    <string name="card_biodiversity">Biodiversidad</string>
+    <string name="card_communities">Comunidades Culturales</string>
+    <string name="tourism_title">Atractivos Turísticos</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_rivers">Ríos</string>
+    <string name="filter_forest">Bosque</string>
+    <string name="filter_cultural">Cultural</string>
+    <string name="biodiversity_title">Biodiversidad</string>
+    <string name="communities_title">Comunidades Culturales</string>
+    <string name="detail_favorite">Favorito</string>
+    <string name="detail_share">Compartir</string>
+    <string name="detail_back">Volver</string>
+    <string name="detail_location">Ubicación</string>
+    <string name="detail_see_map">Ver en mapa</string>
+
+    <string name="attr_yasuni">Parque Yasuní</string>
+    <string name="attr_yasuni_desc">Área protegida de increíble biodiversidad en la Amazonía ecuatoriana. Hogar de cientos de especies endémicas.</string>
+    <string name="attr_napo">Río Napo</string>
+    <string name="attr_napo_desc">Importante afluente amazónico que atraviesa la provincia de Orellana. Ideal para navegación y avistamiento de fauna.</string>
+    <string name="attr_cascada">Cascada La Belleza</string>
+    <string name="attr_cascada_desc">Impresionante caída de agua rodeada de vegetación exuberante. Destino perfecto para ecoturismo y fotografía.</string>
+
+    <string name="species_parrot">Loro Amazónico</string>
+    <string name="species_parrot_sci">Amazona ochrocephala</string>
+    <string name="species_parrot_desc">Especie emblemática de la Amazonía ecuatoriana. Se encuentra en bordes de bosque y áreas riparias.</string>
+    <string name="species_jaguar">Jaguar</string>
+    <string name="species_jaguar_sci">Panthera onca</string>
+    <string name="species_jaguar_desc">El felino más grande de América. Depredador tope en los ecosistemas amazónicos de Orellana.</string>
+    <string name="species_ceibo">Ceibo</string>
+    <string name="species_ceibo_sci">Ceiba pentandra</string>
+    <string name="species_ceibo_desc">Árbol emblemático de la Amazonía, de hasta 70 metros de altura. Sagrado para las culturas amazónicas.</string>
+
+    <string name="community_waorani">Comunidad Waorani</string>
+    <string name="community_waorani_desc">Habitantes ancestrales del Yasuní. Conocidos por su profundo conocimiento del bosque y su resistencia cultural.</string>
+    <string name="community_shuar">Comunidad Shuar</string>
+    <string name="community_shuar_desc">Pueblo indígena conocido por su tradición guerrera y su relación espiritual con la selva. Expertos en tejido y cerámica.</string>
+    <string name="community_kichwa">Comunidad Kichwa</string>
+    <string name="community_kichwa_desc">La comunidad más numerosa de la Amazonía. Reconocidos por su música, medicina ancestral y gastronomía.</string>
+
+    <!-- Mapa interactivo -->
+    <string name="nav_map">Mapa</string>
+    <string name="map_title">Mapa Interactivo</string>
+    <string name="map_hint">Toca un pin para abrir la ficha del sitio</string>
+    <string name="card_map">Mapa Interactivo</string>
+    <string name="card_map_desc">Ubica los sitios turísticos</string>
+
+    <!-- Secciones de la ficha del atractivo -->
+    <string name="tab_info">Información</string>
+    <string name="tab_activities">Actividades</string>
+    <string name="tab_biodiversity">Biodiversidad</string>
+    <string name="tab_culture">Cultura</string>
+    <string name="detail_how_to_get">Cómo llegar</string>
+    <string name="detail_services">Servicios</string>
+    <string name="detail_evaluation">Evaluación</string>
+    <string name="detail_open_map">Abrir en el mapa</string>
+    <string name="detail_review_hint">Escribe tu comentario sobre el sitio…</string>
+    <string name="detail_send_review">Enviar evaluación</string>
+    <string name="detail_no_reviews">Aún no hay evaluaciones de este sitio.</string>
+    <string name="detail_review_thanks">¡Gracias por tu evaluación!</string>
+    <string name="detail_review_needs_stars">Selecciona al menos una estrella.</string>
+    <string name="detail_no_photos">Este sitio todavía no tiene fotos.</string>
+    <string name="detail_no_map_app">No se encontró una app de mapas en el dispositivo.</string>
+    <string name="photo_counter">%1$d / %2$d</string>
+    <string name="review_summary">%1$d evaluación(es) · promedio %2$s</string>
+    <string name="detail_no_data">Sin información registrada por el momento.</string>
+</resources>

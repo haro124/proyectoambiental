@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build output
+build/
+
+# Gradle user-home files generated on this machine (caches, wrapper downloads, daemon logs)
+/caches
+/wrapper
+/daemon
+/native
+/jdks
+/kotlin-profile
+/android
+/.tmp

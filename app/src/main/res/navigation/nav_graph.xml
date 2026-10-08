@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.orellana360.app.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_map"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_home_to_tourism"
+            app:destination="@id/tourismFragment" />
+        <action
+            android:id="@+id/action_home_to_biodiversity"
+            app:destination="@id/biodiversityFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.orellana360.app.ui.map.MapFragment"
+        android:label="@string/map_title"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_map_to_detail"
+            app:destination="@id/tourismDetailFragment" />
+        <action
+            android:id="@+id/action_map_to_tourism"
+            app:destination="@id/tourismFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tourismFragment"
+        android:name="com.orellana360.app.ui.tourism.TourismFragment"
+        android:label="@string/tourism_title"
+        tools:layout="@layout/fragment_tourism">
+        <action
+            android:id="@+id/action_tourism_to_detail"
+            app:destination="@id/tourismDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tourismDetailFragment"
+        android:name="com.orellana360.app.ui.tourism.TourismDetailFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_tourism_detail">
+        <argument
+            android:name="attractionId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/biodiversityFragment"
+        android:name="com.orellana360.app.ui.biodiversity.BiodiversityFragment"
+        android:label="@string/biodiversity_title"
+        tools:layout="@layout/fragment_biodiversity" />
+
+
+
+</navigation>
